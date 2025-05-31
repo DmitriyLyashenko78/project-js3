@@ -35,8 +35,8 @@ const filter = (array, callback) => {
     }
     return newArr
 }
-const  array = ['cat', 'sheep', 'dog', 'wolf', 'dragon']
-const result = filter(array, (element, index) =>  element.length > 3);
+const  array = [1, 2, 3, 4, 5]
+const result = filter(array, (element, index) =>  element % 2 !== 0);
 
 
 console.log(result)
