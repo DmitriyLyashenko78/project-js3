@@ -38,24 +38,4 @@ const filter = (array, callback) => {
 const  array = [1, 2, 3, 4, 5]
 const result = filter(array, (element, index) =>  element % 2 !== 0);
 
-
 console.log(result)
-
-
-
-
-// let Filter = function(callback) {
-//     const newArr = [];
-//     for (let i = 0; i < this.length; i++) {
-//         if (callback(this[i], i, this)) { // передаем элемент, индекс и весь массив
-//             newArr.push(this[i]);
-//         }
-//     }
-//     return newArr;
-// };
-//
-// // Пример использования
-// const arr = ['cat', 'sheep', 'dog', 'wolf', 'dragon'];
-// const evenNumbers = Filter(arr,number => number.length > 3);
-// console.log(evenNumbers); // Вывод: [2, 4, 6]
-
